@@ -1,0 +1,36 @@
+#ifndef ASCII_CODES_H
+#define ASCII_CODES_H
+
+#define RETURN_SYMBOL   "\u23CE"
+#define CLR_SCREEN_CODE "\033[H\033[J"
+
+#define BACKSPACE_CODE 127
+
+// ANSI Color Codes
+#define DEFAULT_CODE "\033[0m"
+
+#define BLACK_CODE "\033[30m"
+#define DARK_RED_CODE "\033[31m"
+#define DARK_GREEN_CODE "\033[32m"
+#define DARK_YELLOW_CODE "\033[33m"
+#define DARK_BLUE_CODE "\033[34m"
+#define DARK_MAGENTA_CODE "\033[35m"
+#define DARK_CYAN_CODE "\033[36m"
+#define DARK_WHITE_CODE "\033[37m"
+
+#define BRIGHT_BLACK_CODE "\033[90m"
+#define BRIGHT_RED_CODE "\033[91m"
+#define BRIGHT_GREEN_CODE "\033[92m"
+#define BRIGHT_YELLOW_CODE "\033[93m"
+#define BRIGHT_BLUE_CODE "\033[94m"
+#define BRIGHT_MAGENTA_CODE "\033[95m"
+#define BRIGHT_CYAN_CODE "\033[96m"
+#define BRIGHT_WHITE_CODE "\033[97m"
+
+#define BOLD_CODE "\033[1m"
+#define UNDERLINE_CODE "\033[4m"
+#define NO_UNDERLINE_CODE "\033[24m"
+#define REVERSE_TEXT_CODE "\033[7m"
+#define POSITIVE_TEXT_CODE "\033[27m"
+
+#endif // ASCII_CODES_H
